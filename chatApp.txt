@@ -1,0 +1,39 @@
+creation
+1. npm install -g create-react-app
+2. create-react-app <name_lowercase>
+
+setup
+delete src folder, create new src folder and make index.js and App.js (import it to index.js)
+
+Install dependencies
+In terminal install :
+npm install @ant-design/icons axios react-chat-engine
+In App.js
+import { ChatEngine } from 'react-chat-engine';
+
+/* Do the normal setup */
+login : chatengine.io/projects
+project Name : Naman Chat
+createing users : 
+1. naman_vj // 123123
+Naman vijay
+
+2. koranga_pankaj // 123123
+Pankaj singh 
+
+ event.preventDefault(); : used in react to prevent refresh after submiting form
+
+
+// when we use async code the function above it must be async code , ( async code eg : try block )
+
+// localStorage.setItem('username' , username);  
+            localStorage.setItem('password', password);
+loacalstorage: used to store username and password so that no need to enter them everytime you login
+
+//if(!localStorage.getItem('username')) return <LoginForm /> : means if cred not avalble in localStorage , then show login page
+
+
+
+// to add new members , first add them using chatEngine.io
+host it to netlify and deploy it .
+
